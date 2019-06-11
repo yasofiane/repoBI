@@ -1,0 +1,2656 @@
+{
+  "Envionments": [
+    {
+      "Name": "dev",
+      "Folders": [
+        {
+          "Path": "/",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/CH",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/CH/Collated",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/CH/Collated/CERPS",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/CH/Collated/FSFA",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/CH/Landing",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/CH/Landing/CERPS",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/CH/Landing/FSFA",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/CH/Raw",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/CH/Raw/CERPS",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/CH/Raw/FSFA",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/system",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/catalog",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/catalog/database",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "int",
+      "Folders": [
+        {
+          "Path": "/",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/CH",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/CH/Collated",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/CH/Collated/CERPS",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/CH/Collated/FSFA",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/CH/Landing",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/CH/Landing/CERPS",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/CH/Landing/FSFA",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/CH/Raw",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/CH/Raw/CERPS",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/CH/Raw/FSFA",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/system",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/catalog",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/catalog/database",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "uat",
+      "Folders": [
+        {
+          "Path": "/",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/CH",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/CH/Collated",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/CH/Collated/CERPS",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/CH/Collated/FSFA",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/CH/Landing",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/CH/Landing/CERPS",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/CH/Landing/FSFA",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/CH/Raw",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/CH/Raw/CERPS",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/CH/Raw/FSFA",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/system",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/catalog",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/catalog/database",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "prd",
+      "Folders": [
+        {
+          "Path": "/",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/CH",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/CH/Collated",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/CH/Collated/CERPS",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/CH/Collated/FSFA",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/CH/Landing",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/CH/Landing/CERPS",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/CH/Landing/FSFA",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/CH/Raw",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/CH/Raw/CERPS",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/CH/Raw/FSFA",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/system",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/catalog",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        },
+        {
+          "Path": "/catalog/database",
+          "Permissions": [
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "74d46fef-a4f0-4d71-8abd-2b792ee65ed5",
+              "Name": "adf-adls-test",
+              "Default": "false"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "true"
+            },
+            {
+              "AceType": "User",
+              "Permissions": "All",
+              "ObjectId": "18686ae7-4068-41ea-8770-165f332cb5be",
+              "Name": "yasofian@microsoft.com",
+              "Default": "false"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "true"
+            },
+            {
+              "AceType": "Group",
+              "Permissions": "All",
+              "ObjectId": "4aed05f3-c04b-4c84-be91-c578706dbb17",
+              "Name": "Veronim''s directs (GD DataInsight)",
+              "Default": "false"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

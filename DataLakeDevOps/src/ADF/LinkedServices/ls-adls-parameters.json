@@ -1,0 +1,26 @@
+﻿{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "dataFactoryName": {
+      "value": "#{DATA_FACTORY_NAME}#"
+    },
+    "adlsLinkedServiceName": {
+      "value": "#{ADLS_LINKED_SERVICE_NAME}#"
+    },
+    "adlsName": {
+      "value": "#{ADLS_NAME}#"
+    },
+    "adfServicePrincipalID": {
+      "value": "#{SERVICE_PRINCIPAL_ID_FOR_ADF}#"
+    },
+    "servicePrincipalKey": {
+        "reference": {
+            "keyVault": {
+                "id": "[concat('/subscriptions/',subscription().subscriptionId,'/resourceGroups/',variables('resourceGroupName'),'/providers/Microsoft.KeyVault/vaults/',variables('keyVaultName'))]"
+            },
+            "secretName": "[parameters('kvSecretNameADLSForADF')]"
+        }
+    }
+  }
+}

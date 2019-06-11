@@ -1,0 +1,75 @@
+﻿{
+  "contentVersion": "1.0.0.0",
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+  "parameters": {
+    "dataFactoryName": {
+      "type": "string",
+      "metadata": {
+        "description": "Name of the data factory."
+      }
+    },
+    "fileShareLinkedServiceName": {
+      "type": "string",
+      "metadata": {
+        "description": "Name of the Azure storage linked service."
+      }
+    },
+    "integrationruntimeName": {
+      "type": "string",
+      "metadata": {
+        "description": "Integration runtime gateway name."
+      }
+    },
+    "irHost": {
+      "type": "string",
+      "metadata": {
+        "description": "Integration runtime host."
+      }
+    },
+    "irUsername": {
+      "type": "string",
+      "metadata": {
+        "description": "Integration runtime username."
+      }
+    },
+    "irPassword": {
+      "type": "string",
+      "metadata": {
+        "description": "Integration runtime password."
+      }
+    }
+  },
+  "resources": [
+    {
+      "name": "[parameters('dataFactoryName')]",
+      "apiVersion": "2017-09-01-preview",
+      "type": "Microsoft.DataFactory/factories",
+      "location": "[resourceGroup().location]",
+      "resources": [
+        {
+          "type": "linkedservices",
+          "name": "[parameters('fileShareLinkedServiceName')]",
+          "dependsOn": [
+            "[parameters('dataFactoryName')]"
+          ],
+          "apiVersion": "2017-09-01-preview",
+          "properties": {
+            "type": "OnPremisesFileServer",
+            "typeProperties": {
+              "host": "[parameters('irHost')]",
+              "userId": "[parameters('irUsername')]",
+              "password": {
+                "value": "[parameters('irPassword')]",
+                "type": "SecureString"
+              },
+              "connectVia": {
+                "referenceName": "[parameters('integrationruntimeName')]",
+                "type": "IntegrationRuntimeReference"
+              }
+            }
+          }          
+        }
+      ]
+    }
+  ]
+}

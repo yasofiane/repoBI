@@ -1,0 +1,4 @@
+C:\Users\yasofian\Source\Repos\DataLakeDevOps\ADLA-USQL\bin\Debug\Algebra.xml
+C:\Users\yasofian\Source\Repos\DataLakeDevOps\ADLA-USQL\obj\Debug\ADLA-USQL.usqlprojResolveAssemblyReference.cache
+C:\Users\yasofian\Source\Repos\DataLakeDevOps\ADLA-USQL\obj\Debug\ADLA-USQL.usqlproj.CoreCompileInputs.cache
+C:\Users\yasofian\Source\Repos\DataLakeDevOps\ADLA-USQL\obj\Debug\Algebra.xml

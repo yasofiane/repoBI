@@ -1,0 +1,23 @@
+﻿{
+"CompilerPlanStart":"09\/04\/2018 16:43:41"
+},
+{
+"Settings":"-c++ -mp -pdb Partial -OUTPUT_PATH C:\\Users\\yasofian\\AppData\\Local\\USQLDataRoot -cosmosCluster localhost -apEnvironment Default -apCluster localhost -Off EnableScopeVertexResourceMode -On ForceShadowCopy -On ADL -Off Sirius -On USQL -Off SQLIPSQLProxy -Off SQLIPSQLProxyNative -Off PolarisScaleUp -buckets 1 -SplitPartitionThreshold 52428800 -ClientVersion 10.2.2.0"
+},
+{
+"statementText":"     SELECT * FROM         (VALUES            (\"Contoso\", 1500.0),            (\"Woodgrove\", "
+,
+{
+"NodeName":"QueryStatement"
+}}
+,
+{
+"statementText":"OUTPUT @a    TO \"\/datasofADLA.csv\"    USING Outputters.Csv()"
+,
+{
+"NodeName":"OutputStatement"
+}}
+,
+{
+"CompilerPlanEnd":"09\/04\/2018 16:43:41"
+}

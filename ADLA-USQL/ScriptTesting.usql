@@ -1,0 +1,33 @@
+﻿/*
+// Create table
+CREATE TABLE IF NOT EXISTS LaPoste.dbo.customer
+(
+        //Define schema of table
+customer string ,
+amount int ,
+    INDEX idx1 //Name of index
+    CLUSTERED (customer ASC) //Column to cluster by
+    DISTRIBUTED BY HASH (customer) //Column to partition by
+);
+
+//Read some data
+@d = 
+    EXTRACT 
+        customer string ,
+        amount int 
+    FROM @"/datasofADLA.csv"
+    USING Extractors.Text(delimiter: ',', encoding: Encoding.[ASCII], skipFirstNRows: 0);
+//Insert it into a previously created table
+INSERT INTO LaPoste.dbo.customer
+SELECT *
+FROM @d;
+*/
+//Output to ADLS
+//*
+@a =
+    SELECT *
+    FROM LaPoste.dbo.customer;
+OUTPUT @a
+    TO "/custumersofADLA.csv"
+    USING Outputters.Csv();
+//*/

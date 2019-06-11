@@ -1,0 +1,88 @@
+*** Entering compilation, time elapsed until this point: 00:00:04.5294507
+*** Done with C# compilation, time elapsed until this point: 00:00:04.8436197
+#CPP cl.exe pre-compile (iteration 0/0) -- Native
+#CPP stdout:
+__ScopeCodeGenEngine__.dll.cpp
+ENC_CWD=C:\Users\yasofian\Source\Repos\DataLakeDevOps\ADLA-USQL\bin\Debug\Script
+ENC_CL=C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\SDK\ScopeCppSDK\VC\bin\cl.exe
+ENC_SRC=__ScopeCodeGenEngine__.dll.cpp
+ENC_PDB=C:\Users\yasofian\Source\Repos\DataLakeDevOps\ADLA-USQL\bin\Debug\Script\__ScopeCodeGenEngine__.dllNative_pch.pdb
+ENC_CMD=-nologo -c -bigobj -Bt+ -DWIN32_LEAN_AND_MEAN -MD -W4 -WX -Zi -O2 -Bd -d2cgsummary -EHa -DCOMPILE_NATIVE -wd4125 -wd4627 -wd4800 -wd4702 -DUSE_SSE4_2 -I"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\SDK\ScopeCppSDK\VC\include" -I"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\SDK\ScopeCppSDK\SDK\include" -I"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\SDK\ScopeCppSDK\SDK\include\um" -I"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\SDK\ScopeCppSDK\SDK\include\shared" -I"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\SDK\ScopeCppSDK\SDK\include\ucrt" -I"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\Extensions\Microsoft\ADL Tools\2.3.3000.1\U-SQLSDK" -IC:\Users\yasofian\Source\Repos\DataLakeDevOps\ADLA-USQL\bin\Debug\Script -Yc -FpC:\Users\yasofian\Source\Repos\DataLakeDevOps\ADLA-USQL\bin\Debug\Script\__ScopeCodeGenEngine__.dllNative_pch.pch -TP -X
+`C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\SDK\ScopeCppSDK\VC\bin\c1xx.dll -zm0x00007FF604F75570 -il C:\Users\yasofian\AppData\Local\Temp\_CL_00a66bc0 -typedil -f __ScopeCodeGenEngine__.dll.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -ZB64 -D_INTEGRAL_MAX_BITS=64 -pc \:/ -D_MSC_VER=1900 -D_MSC_FULL_VER=190023506 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GS -GR -D_CPPRTTI -Zc:forScope -Zc:wchar_t -nologo -DWIN32_LEAN_AND_MEAN -D_MT -D_DLL -W 4 -WX -Zi -GF -Og -Oi -Ot -Oy -Bd -EHa -D_CPPUNWIND -DCOMPILE_NATIVE -wd 4125 -wd 4627 -wd 4800 -wd 4702 -DUSE_SSE4_2 -I C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\SDK\ScopeCppSDK\VC\include -I C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\SDK\ScopeCppSDK\SDK\include -I C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\SDK\ScopeCppSDK\SDK\include\um -I C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\SDK\ScopeCppSDK\SDK\include\shared -I C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\SDK\ScopeCppSDK\SDK\include\ucrt -I C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\Extensions\Microsoft\ADL Tools\2.3.3000.1\U-SQLSDK -I C:\Users\yasofian\Source\Repos\DataLakeDevOps\ADLA-USQL\bin\Debug\Script -Yc -Fo__ScopeCodeGenEngine__.dllNative_pch.obj -Fp__ScopeCodeGenEngine__.dllNative_pch.pch -Fd__ScopeCodeGenEngine__.dllNative_pch.pdb -sqm C:\Users\yasofian\AppData\Local\Microsoft\VSCommon\14.0\SQM\sqmcpp.log'
+time(C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\SDK\ScopeCppSDK\VC\bin\c1xx.dll)=3.61311s < 2676104165974 - 2676114073809 > BB [C:\Users\yasofian\Source\Repos\DataLakeDevOps\ADLA-USQL\bin\Debug\Script\__ScopeCodeGenEngine__.dll.cpp]
+`C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\SDK\ScopeCppSDK\VC\bin\c2.dll -il C:\Users\yasofian\AppData\Local\Temp\_CL_00a66bc0 -typedil -f __ScopeCodeGenEngine__.dll.cpp -dos -GS -bigobj -MD -W 4 -WX -Zi -Og -Ob2 -Gy -Bd -cgsummary -EHa -Yc -Fo__ScopeCodeGenEngine__.dllNative_pch.obj -Fd__ScopeCodeGenEngine__.dllNative_pch.pdb'
+Code Generation Summary
+	Total Function Count: 156
+	Elapsed Time: 0.084 sec
+	Total Compilation Time: 0.289 sec
+	Efficiency: 345.8%
+	Average time per function: 0.002 sec
+	Anomalistic Compile Times: 11
+		?_Copy@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QEAAX_K0@Z: 0.015 sec, 0 instrs
+		?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAX_K0@Z: 0.015 sec, 0 instrs
+		?assign@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QEAAAEAV12@AEBV12@_K1@Z: 0.014 sec, 0 instrs
+		?append@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QEAAAEAV12@PEB_W_K@Z: 0.014 sec, 0 instrs
+		?assign@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QEAAAEAV12@PEB_W_K@Z: 0.013 sec, 0 instrs
+		?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@PEBD_K@Z: 0.012 sec, 0 instrs
+		?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@PEBD_K@Z: 0.011 sec, 0 instrs
+		?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@AEBV12@_K1@Z: 0.011 sec, 0 instrs
+		?append@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QEAAAEAV12@AEBV12@_K1@Z: 0.011 sec, 0 instrs
+		?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@AEBV12@_K1@Z: 0.010 sec, 0 instrs
+		??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@$$QEAV01@@Z: 0.009 sec, 0 instrs
+time(C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\SDK\ScopeCppSDK\VC\bin\c2.dll)=0.26802s < 2676114081138 - 2676114816093 > BB [C:\Users\yasofian\Source\Repos\DataLakeDevOps\ADLA-USQL\bin\Debug\Script\__ScopeCodeGenEngine__.dll.cpp]
+
+#CPP stderr:
+
+#CPP cl.exe compile (iteration 1/1) -- Native
+#CPP stdout:
+__ScopeCodeGenEngine__.dll.cpp
+ENC_CWD=C:\Users\yasofian\Source\Repos\DataLakeDevOps\ADLA-USQL\bin\Debug\Script
+ENC_CL=C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\SDK\ScopeCppSDK\VC\bin\cl.exe
+ENC_SRC=__ScopeCodeGenEngine__.dll.cpp
+ENC_PDB=C:\Users\yasofian\Source\Repos\DataLakeDevOps\ADLA-USQL\bin\Debug\Script\__ScopeCodeGenEngine__.dllNative_pch.pdb
+ENC_CMD=-nologo -c -bigobj -Bt+ -DWIN32_LEAN_AND_MEAN -MD -W4 -WX -Zi -O2 -Bd -d2cgsummary -EHa -DCOMPILE_NATIVE -wd4125 -wd4627 -wd4800 -wd4702 -DUSE_SSE4_2 -I"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\SDK\ScopeCppSDK\VC\include" -I"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\SDK\ScopeCppSDK\SDK\include" -I"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\SDK\ScopeCppSDK\SDK\include\um" -I"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\SDK\ScopeCppSDK\SDK\include\shared" -I"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\SDK\ScopeCppSDK\SDK\include\ucrt" -I"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\Extensions\Microsoft\ADL Tools\2.3.3000.1\U-SQLSDK" -IC:\Users\yasofian\Source\Repos\DataLakeDevOps\ADLA-USQL\bin\Debug\Script -DCOMPILE_ALL_VERTICES -DCOMPILE_INIT_SHUTDOWN -Yu -FpC:\Users\yasofian\Source\Repos\DataLakeDevOps\ADLA-USQL\bin\Debug\Script\__ScopeCodeGenEngine__.dllNative_pch.pch -TP -X
+`C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\SDK\ScopeCppSDK\VC\bin\c1xx.dll -zm0x00007FF604F75570 -allChunksReserved -il C:\Users\yasofian\AppData\Local\Temp\_CL_6208a84e -typedil -f __ScopeCodeGenEngine__.dll.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -ZB64 -D_INTEGRAL_MAX_BITS=64 -pc \:/ -D_MSC_VER=1900 -D_MSC_FULL_VER=190023506 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GS -GR -D_CPPRTTI -Zc:forScope -Zc:wchar_t -nologo -DWIN32_LEAN_AND_MEAN -D_MT -D_DLL -W 4 -WX -Zi -GF -Og -Oi -Ot -Oy -Bd -EHa -D_CPPUNWIND -DCOMPILE_NATIVE -wd 4125 -wd 4627 -wd 4800 -wd 4702 -DUSE_SSE4_2 -I C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\SDK\ScopeCppSDK\VC\include -I C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\SDK\ScopeCppSDK\SDK\include -I C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\SDK\ScopeCppSDK\SDK\include\um -I C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\SDK\ScopeCppSDK\SDK\include\shared -I C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\SDK\ScopeCppSDK\SDK\include\ucrt -I C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\Extensions\Microsoft\ADL Tools\2.3.3000.1\U-SQLSDK -I C:\Users\yasofian\Source\Repos\DataLakeDevOps\ADLA-USQL\bin\Debug\Script -DCOMPILE_ALL_VERTICES -DCOMPILE_INIT_SHUTDOWN -Fo__ScopeCodeGenEngine__.dllNative.obj -Yu -Fp__ScopeCodeGenEngine__.dllNative_pch.pch -Fd__ScopeCodeGenEngine__.dllNative_pch.pdb -sqm C:\Users\yasofian\AppData\Local\Microsoft\VSCommon\14.0\SQM\sqmcpp.log'
+time(C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\SDK\ScopeCppSDK\VC\bin\c1xx.dll)=0.21496s < 2676115119935 - 2676115709382 > BB [C:\Users\yasofian\Source\Repos\DataLakeDevOps\ADLA-USQL\bin\Debug\Script\__ScopeCodeGenEngine__.dll.cpp]
+`C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\SDK\ScopeCppSDK\VC\bin\c2.dll -il C:\Users\yasofian\AppData\Local\Temp\_CL_6208a84e -typedil -f __ScopeCodeGenEngine__.dll.cpp -dos -GS -bigobj -MD -W 4 -WX -Zi -Og -Ob2 -Gy -Bd -cgsummary -EHa -Fo__ScopeCodeGenEngine__.dllNative.obj -Fd__ScopeCodeGenEngine__.dllNative_pch.pdb'
+Code Generation Summary
+	Total Function Count: 813
+	Elapsed Time: 1.157 sec
+	Total Compilation Time: 3.754 sec
+	Efficiency: 324.4%
+	Average time per function: 0.005 sec
+	Anomalistic Compile Times: 14
+		??$Write@M$0A@@?$TextOutputStream@U?$TextOutputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$0A@$00$03$00$0A@@ScopeEngine@@VCosmosOutput@2@@ScopeEngine@@QEAAXAEBM@Z: 0.285 sec, 0 instrs
+		??$Write@VFString@ScopeEngine@@$00@?$TextOutputStream@U?$TextOutputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$0A@$00$03$00$0A@@ScopeEngine@@VCosmosOutput@2@@ScopeEngine@@QEAAXAEBVFString@1@@Z: 0.278 sec, 0 instrs
+		??$WriteDouble@$0A@@?$TextOutputStream@U?$TextOutputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$0A@$00$03$00$0A@@ScopeEngine@@VCosmosOutput@2@@ScopeEngine@@QEAAXAEBN@Z: 0.273 sec, 0 instrs
+		?WriteRuntimeStats@Statistics@IncrementalAllocator@ScopeEngine@@QEBAXAEAVTreeNode@3@J@Z: 0.253 sec, 0 instrs
+		??$WriteString@$00@?$TextOutputStream@U?$TextOutputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$0A@$00$03$00$0A@@ScopeEngine@@VCosmosOutput@2@@ScopeEngine@@QEAAXPEBD_K@Z: 0.203 sec, 0 instrs
+		??$WriteString@$0A@@?$TextOutputStream@U?$TextOutputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$0A@$00$03$00$0A@@ScopeEngine@@VCosmosOutput@2@@ScopeEngine@@QEAAXPEBD_K@Z: 0.183 sec, 0 instrs
+		??$Write@N$0A@@?$TextOutputStream@U?$TextOutputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$0A@$00$03$00$0A@@ScopeEngine@@VCosmosOutput@2@@ScopeEngine@@QEAAXAEBN@Z: 0.140 sec, 0 instrs
+		??0ResourceInput@ScopeEngine@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z: 0.093 sec, 0 instrs
+		??$WriteInfNaN@N$0A@@?$TextOutputStream@U?$TextOutputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$0A@$00$03$00$0A@@ScopeEngine@@VCosmosOutput@2@@ScopeEngine@@AEAA_NAEBN@Z: 0.089 sec, 0 instrs
+		?str@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ: 0.087 sec, 0 instrs
+		??$WriteInfNaN@M$0A@@?$TextOutputStream@U?$TextOutputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$0A@$00$03$00$0A@@ScopeEngine@@VCosmosOutput@2@@ScopeEngine@@AEAA_NAEBM@Z: 0.085 sec, 0 instrs
+		?WriteRuntimeStatsImpl@?$Outputer@V?$FilterTransformer@V?$SequenceProject@V?$RowGenerator@VPartitionSchema_RowGenerator_0@@V?$RowGeneratePolicy@VPartitionSchema_RowGenerator_0@@$00@ScopeEngine@@$00@ScopeEngine@@VPartitionSchema_RowGenerator_0@@VProcess_1_Data0@@$02@ScopeEngine@@VProcess_1_Data0@@VProcess_2_Data0@@$04@ScopeEngine@@VProcess_2_Data0@@V?$TextOutputPolicy@VProcess_2_Data0@@$06@2@V?$TextOutputStream@U?$TextOutputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$0A@$00$03$00$0A@@ScopeEngine@@VCosmosOutput@2@@2@$0A@@ScopeEngine@@QEAAXAEAVTreeNode@2@@Z: 0.079 sec, 0 instrs
+		?WriteRuntimeStatsImpl@?$RowGenerator@VPartitionSchema_RowGenerator_0@@V?$RowGeneratePolicy@VPartitionSchema_RowGenerator_0@@$00@ScopeEngine@@$00@ScopeEngine@@QEAAXAEAVTreeNode@2@@Z: 0.067 sec, 0 instrs
+		?WriteRuntimeStatsImpl@?$FilterTransformer@V?$SequenceProject@V?$RowGenerator@VPartitionSchema_RowGenerator_0@@V?$RowGeneratePolicy@VPartitionSchema_RowGenerator_0@@$00@ScopeEngine@@$00@ScopeEngine@@VPartitionSchema_RowGenerator_0@@VProcess_1_Data0@@$02@ScopeEngine@@VProcess_1_Data0@@VProcess_2_Data0@@$04@ScopeEngine@@QEAAXAEAVTreeNode@2@@Z: 0.057 sec, 0 instrs
+time(C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\SDK\ScopeCppSDK\VC\bin\c2.dll)=1.23660s < 2676115716747 - 2676119107737 > BB [C:\Users\yasofian\Source\Repos\DataLakeDevOps\ADLA-USQL\bin\Debug\Script\__ScopeCodeGenEngine__.dll.cpp]
+
+#CPP stderr:
+
+*** Done with C++ compilation, time elapsed until this point: 00:00:11.0382377
+#LINK stdout:
+__ScopeCodeGenEngine__.dllNative_pch.obj : warning LNK4042: object specified more than once; extras ignored
+   Creating library __ScopeCodeGenEngine__.lib and object __ScopeCodeGenEngine__.exp
+Linker: LibDef Total time = 0.00280s PB: 25071616 [C:\Users\yasofian\Source\Repos\DataLakeDevOps\ADLA-USQL\bin\Debug\Script\__ScopeCodeGenEngine__.dll] 
+Linker:   OptRef Total time = 0.00048s PB: 25477120 [C:\Users\yasofian\Source\Repos\DataLakeDevOps\ADLA-USQL\bin\Debug\Script\__ScopeCodeGenEngine__.dll] 
+Linker:   OptIcf Total time = 0.00390s PB: 26644480 [C:\Users\yasofian\Source\Repos\DataLakeDevOps\ADLA-USQL\bin\Debug\Script\__ScopeCodeGenEngine__.dll] 
+Linker: Pass 1: Interval #1, time = 0.18418s [C:\Users\yasofian\Source\Repos\DataLakeDevOps\ADLA-USQL\bin\Debug\Script\__ScopeCodeGenEngine__.dll] 
+Linker:   Wait PDB close Total time = 0.04003s PB: 6991872 [C:\Users\yasofian\Source\Repos\DataLakeDevOps\ADLA-USQL\bin\Debug\Script\__ScopeCodeGenEngine__.dll] 
+Linker:   Wait type merge Total time = 0.01287s PB: 6938624 [C:\Users\yasofian\Source\Repos\DataLakeDevOps\ADLA-USQL\bin\Debug\Script\__ScopeCodeGenEngine__.dll] 
+Linker: Pass 2: Interval #2, time = 0.09597s [C:\Users\yasofian\Source\Repos\DataLakeDevOps\ADLA-USQL\bin\Debug\Script\__ScopeCodeGenEngine__.dll] 
+Linker: Final Total time = 0.28030s < 2676119620587 - 2676120389210 > PB: 7577600 [C:\Users\yasofian\Source\Repos\DataLakeDevOps\ADLA-USQL\bin\Debug\Script\__ScopeCodeGenEngine__.dll] 
+
+#LINK stderr:
+
+*** Done with C++ linking, time elapsed until this point: 00:00:11.5335887
+*** Exiting compilation, time elapsed until this point: 00:00:11.5350353

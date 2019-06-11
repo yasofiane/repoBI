@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>f18fa4da-3b86-4a87-b6ca-74a0f08d703f</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetFrameworkIdentifier>Deployment</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>1.0</TargetFrameworkVersion>
+    <PrepareForBuildDependsOn>
+    </PrepareForBuildDependsOn>
+  </PropertyGroup>
+  <Import Condition=" Exists('Deployment.targets') " Project="Deployment.targets" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+  <!-- vertag<:>start tokens<:>maj.min -->
+  <Import Condition=" Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Deployment\1.1\DeploymentProject.targets') " Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Deployment\1.1\DeploymentProject.targets" />
+  <!-- vertag<:>end -->
+  <ItemGroup>
+    <Content Include="azuredeploy.json" />
+    <Content Include="azuredeploy.parameters.json" />
+    <None Include="Deployment.targets">
+      <Visible>False</Visible>
+    </None>
+    <Content Include="Deploy-AzureResourceGroup.ps1" />
+    <None Include="src\ADF\adf-parameters.json" />
+    <None Include="src\ADF\adf-template.json" />
+    <None Include="src\ADF\IntegrationRuntimes\ir-parameters.json" />
+    <None Include="src\ADF\IntegrationRuntimes\ir-template.json" />
+    <None Include="src\ADF\LinkedServices\ls-adla-parameters.json" />
+    <None Include="src\ADF\LinkedServices\ls-adla-template.json" />
+    <None Include="src\ADF\LinkedServices\ls-adls-parameters.json" />
+    <None Include="src\ADF\LinkedServices\ls-adls-template.json" />
+    <None Include="src\ADF\LinkedServices\ls-azurestorage-parameters.json" />
+    <None Include="src\ADF\LinkedServices\ls-azurestorage-template.json" />
+    <None Include="src\ADF\LinkedServices\ls-fileshare-template-parameters.json" />
+    <None Include="src\ADF\LinkedServices\ls-fileshare-template.json" />
+    <None Include="src\ADLA\adla-firewallrules.json" />
+    <None Include="src\ADLA\adla-parameters.json" />
+    <None Include="src\ADLA\adla-template.json" />
+    <None Include="src\ADLS\adls-firewallrules.json" />
+    <None Include="src\ADLS\adls-folders.json" />
+    <None Include="src\ADLS\adls-parameters.json" />
+    <None Include="src\ADLS\adls-template.json" />
+    <None Include="src\KeyVault\kv-parameters.json" />
+    <None Include="src\KeyVault\kv-template.json" />
+    <None Include="src\Main\main-parameters.json" />
+    <None Include="src\Main\main-template.json" />
+    <None Include="src\Main\tags.json" />
+    <None Include="src\PowerShell\adls-SetFolderAcls-WithoutLogin.ps1" />
+    <None Include="src\PowerShell\Apply-FirewallRules.ps1" />
+    <None Include="src\PowerShell\Apply-TAGs.ps1" />
+    <None Include="src\PowerShell\Deploy-RG-MainTemplate.ps1" />
+    <None Include="src\PowerShell\kv-SetAccessPolicies.ps1" />
+    <None Include="src\PowerShell\kv-SetSecrets.ps1" />
+    <None Include="src\PowerShell\Set-Diagnostic.ps1" />
+    <None Include="src\SSAS\ssas-parameters.json" />
+    <None Include="src\SSAS\ssas-template.json" />
+    <None Include="src\StorageAccount\sa-parameters.json" />
+    <None Include="src\StorageAccount\sa-template.json" />
+  </ItemGroup>
+  <Target Name="GetReferenceAssemblyPaths" />
+</Project>

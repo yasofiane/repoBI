@@ -1,0 +1,309 @@
+﻿{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "appName": {
+      "type": "string"
+    },
+    "environment": {
+      "type": "string",
+      "allowedValues": [
+        "dev",
+        "dem",
+        "int",
+        "uat",
+        "stg",
+        "prd"
+      ],
+      "metadata": {
+        "description": "The target environment formatted as ENV : dev = dev, dem = demo, int = integration, uat = uat/testing, stg = pre-production or staging, prd = production"
+      }
+    },
+    "blobStorageCommonSasToken": {
+      "type": "securestring"
+    },
+    "location": {
+      "type": "string",
+      "allowedValues": [
+        "us2",
+        "us6"
+      ]
+    },
+    "resourceNumber": {
+      "type": "string"
+    },
+    "adfServicePrincipalID": {
+      "type": "string"
+    }
+  },
+  "variables": {
+    "templateLinkUri": "[deployment().properties.templateLink.uri]",
+    "storageAccountName": "[concat(parameters('location'),'-',parameters('appName'),'-sac-',parameters('environment'), parameters('resourceNumber'))]",
+    "dataFactoryName": "[concat(parameters('location'),'-',parameters('appName'),'-adf-',parameters('environment'), parameters('resourceNumber'))]",
+    "keyVaultName": "[concat(parameters('location'),'-',parameters('appName'),'-kv-',parameters('environment'), parameters('resourceNumber'))]",
+    "kvSecretNameADLSForADF": "[concat(variables('keyVaultName'), '-adlsforadf-secret-', parameters('resourceNumber'))]",
+    "adlStoreName": "[replace(concat(parameters('location'),parameters('appName'),'adls',parameters('environment'), parameters('resourceNumber')), '-','')]",
+    "adlAnalyticsName": "[replace(concat(parameters('location'),parameters('appName'),'adla',parameters('environment'), parameters('resourceNumber')), '-','')]",
+    "ssasName": "[replace(concat(parameters('location'),parameters('appName'),'ssas',parameters('environment'), parameters('resourceNumber')), '-','')]",
+    "resourceGroupName": "[resourceGroup().name]",
+    "adfServicePrincipalID": "[parameters('adfServicePrincipalID')]",
+    "integrationruntimeName": "[concat(variables('dataFactoryName'), '-IR')]",
+    "kvSecretIRHost": "[concat(variables('keyVaultName'), '-irhost-secret-', parameters('resourceNumber'))]",
+    "kvSecretIRUsername": "[concat(variables('keyVaultName'), '-iruserid-secret-', parameters('resourceNumber'))]",
+    "kvSecretIRPassword": "[concat(variables('keyVaultName'), '-irpassword-secret-', parameters('resourceNumber'))]"
+  },
+  "resources": [
+    {
+      "apiVersion": "2017-05-10",
+      "type": "Microsoft.Resources/deployments",
+      "name": "linked-template-storage-account",
+      "dependsOn": [],
+      "properties": {
+        "mode": "Incremental",
+        "templateLink": {
+          "uri": "[concat(uri(variables('templateLinkUri'), '../StorageAccount/sa-template.json'), parameters('blobStorageCommonSasToken'))]",
+          "contentVersion": "1.0.0.0"
+        },
+        "parameters": {
+          "storageAccountName": {
+            "value": "[replace(variables('storageAccountName'),'-','')]"
+          }
+        }
+      }
+    },
+    {
+      "name": "linked-template-ADLS",
+      "type": "Microsoft.Resources/deployments",
+      "apiVersion": "2017-05-10",
+      "dependsOn": [],
+      "properties": {
+        "mode": "Incremental",
+        "templateLink": {
+          "uri": "[concat(uri(variables('templateLinkUri'), '../ADLS/adls-template.json'), parameters('blobStorageCommonSasToken'))]",
+          "contentVersion": "1.0.0.0"
+        },
+        "parameters": {
+          "adlStoreName": {
+            "value": "[variables('adlStoreName')]"
+          }
+        }
+      }
+    },
+    {
+      "name": "linked-template-ADLA",
+      "type": "Microsoft.Resources/deployments",
+      "apiVersion": "2017-05-10",
+      "dependsOn": [ "linked-template-ADLS" ],
+      "properties": {
+        "mode": "Incremental",
+        "templateLink": {
+          "uri": "[concat(uri(variables('templateLinkUri'), '../ADLA/adla-template.json'), parameters('blobStorageCommonSasToken'))]",
+          "contentVersion": "1.0.0.0"
+        },
+        "parameters": {
+          "adlAnalyticsName": {
+            "value": "[variables('adlAnalyticsName')]"
+          },
+          "adlStoreName": {
+            "value": "[variables('adlStoreName')]"
+          }
+        }
+      }
+    },
+    {
+      "name": "linked-template-DataFactory",
+      "type": "Microsoft.Resources/deployments",
+      "apiVersion": "2017-05-10",
+      "dependsOn": [],
+      "properties": {
+        "mode": "Incremental",
+        "templateLink": {
+          "uri": "[concat(uri(variables('templateLinkUri'), '../ADF/adf-template.json'), parameters('blobStorageCommonSasToken'))]",
+          "contentVersion": "1.0.0.0"
+        },
+        "parameters": {
+          "dataFactoryName": {
+            "value": "[variables('dataFactoryName')]"
+          }
+        }
+      }
+    },
+    {
+      "name": "linked-template-ADF-StorageLinkedService",
+      "type": "Microsoft.Resources/deployments",
+      "apiVersion": "2017-05-10",
+      "dependsOn": [
+        "linked-template-DataFactory",
+        "linked-template-storage-account"
+      ],
+      "properties": {
+        "mode": "Incremental",
+        "templateLink": {
+          "uri": "[concat(uri(variables('templateLinkUri'), '../ADF/LinkedServices/ls-azurestorage-template.json'), parameters('blobStorageCommonSasToken'))]",
+          "contentVersion": "1.0.0.0"
+        },
+        "parameters": {
+          "dataFactoryName": {
+            "value": "[variables('dataFactoryName')]"
+          },
+          "azureStorageLinkedServiceName": {
+            "value": "LS_ABLB_LinkedService"
+          },
+          "storageAccountName": {
+            "value": "[replace(variables('storageAccountName'),'-','')]"
+          }
+        }
+      }
+    },
+    {
+      "name": "linked-template-ADF-DataLakeLinkedService",
+      "type": "Microsoft.Resources/deployments",
+      "apiVersion": "2017-05-10",
+      "dependsOn": [
+        "linked-template-DataFactory",
+        "linked-template-ADLS"
+      ],
+      "properties": {
+        "mode": "Incremental",
+        "templateLink": {
+          "uri": "[concat(uri(variables('templateLinkUri'), '../ADF/LinkedServices/ls-adls-template.json'), parameters('blobStorageCommonSasToken'))]",
+          "contentVersion": "1.0.0.0"
+        },
+        "parameters": {
+          "dataFactoryName": {
+            "value": "[variables('dataFactoryName')]"
+          },
+          "adlsLinkedServiceName": {
+            "value": "LS_ADLS_LinkedService"
+          },
+          "adlsName": {
+            "value": "[variables('adlStoreName')]"
+          },
+          "adfServicePrincipalID": {
+            "value": "[variables('adfServicePrincipalID')]"
+          },
+          "servicePrincipalKey": {
+            "reference": {
+              "keyVault": {
+                "id": "[concat('/subscriptions/',subscription().subscriptionId,'/resourceGroups/',variables('resourceGroupName'),'/providers/Microsoft.KeyVault/vaults/',variables('keyVaultName'))]"
+              },
+              "secretName": "[variables('kvSecretNameADLSForADF')]"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "linked-template-ADF-DataLakeAnalyticsLinkedService",
+      "type": "Microsoft.Resources/deployments",
+      "apiVersion": "2017-05-10",
+      "dependsOn": [
+        "linked-template-DataFactory",
+        "linked-template-ADLA"
+      ],
+      "properties": {
+        "mode": "Incremental",
+        "templateLink": {
+          "uri": "[concat(uri(variables('templateLinkUri'), '../ADF/LinkedServices/ls-adla-template.json'), parameters('blobStorageCommonSasToken'))]",
+          "contentVersion": "1.0.0.0"
+        },
+        "parameters": {
+          "dataFactoryName": {
+            "value": "[variables('dataFactoryName')]"
+          },
+          "adlaLinkedServiceName": {
+            "value": "LS_ADLA_LinkedService"
+          },
+          "adlaName": {
+            "value": "[variables('adlAnalyticsName')]"
+          },
+          "adfServicePrincipalID": {
+            "value": "[variables('adfServicePrincipalID')]"
+          },
+          "servicePrincipalKey": {
+            "reference": {
+              "keyVault": {
+                "id": "[concat('/subscriptions/',subscription().subscriptionId,'/resourceGroups/',variables('resourceGroupName'),'/providers/Microsoft.KeyVault/vaults/',variables('keyVaultName'))]"
+              },
+              "secretName": "[variables('kvSecretNameADLSForADF')]"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "linked-template-ADF-IntegrationRuntime",
+      "type": "Microsoft.Resources/deployments",
+      "apiVersion": "2017-05-10",
+      "dependsOn": [ "linked-template-DataFactory" ],
+      "properties": {
+        "mode": "Incremental",
+        "templateLink": {
+          "uri": "[concat(uri(variables('templateLinkUri'), '../ADF/IntegrationRuntimes/ir-template.json'), parameters('blobStorageCommonSasToken'))]",
+          "contentVersion": "1.0.0.0"
+        },
+        "parameters": {
+          "dataFactoryName": {
+            "value": "[variables('dataFactoryName')]"
+          },
+          "integrationRuntimeName": {
+            "value": "[variables('integrationRuntimeName')]"
+          }
+        }
+      }
+    }//,
+    //{
+    //  "name": "linked-template-ADF-FileShareLinkedService",
+    //  "type": "Microsoft.Resources/deployments",
+    //  "apiVersion": "2017-05-10",
+    //  "dependsOn": [
+    //    "linked-template-DataFactory",
+    //    "linked-template-ADF-IntegrationRunTime"
+    //  ],
+    //  "properties": {
+    //    "mode": "Incremental",
+    //    "templateLink": {
+    //      "uri": "[concat(uri(variables('templateLinkUri'), '../ADF/LinkedServices/ls-fileshare-template.json'), parameters('blobStorageCommonSasToken'))]",
+    //      "contentVersion": "1.0.0.0"
+    //    },
+    //    "parameters": {
+    //      "dataFactoryName": {
+    //        "value": "[variables('dataFactoryName')]"
+    //      },
+    //      "fileShareLinkedServiceName": {
+    //        "value": "LS_FILE_LinkedService"
+    //      },
+    //      "integrationruntimeName": {
+    //        "value": "[variables('integrationruntimeName')]"
+    //      },
+    //      "irHost": {
+    //        "reference": {
+    //          "keyVault": {
+    //            "id": "[concat('/subscriptions/',subscription().subscriptionId,'/resourceGroups/',variables('resourceGroupName'),'/providers/Microsoft.KeyVault/vaults/',variables('keyVaultName'))]"
+    //          },
+    //          "secretName": "[variables('kvSecretIRHost')]"
+    //        }
+    //      },
+    //      "irUsername": {
+    //        "reference": {
+    //          "keyVault": {
+    //            "id": "[concat('/subscriptions/',subscription().subscriptionId,'/resourceGroups/',variables('resourceGroupName'),'/providers/Microsoft.KeyVault/vaults/',variables('keyVaultName'))]"
+    //          },
+    //          "secretName": "[variables('kvSecretIRUsername')]"
+    //        }
+    //      },
+    //      "irPassword": {
+    //        "reference": {
+    //          "keyVault": {
+    //            "id": "[concat('/subscriptions/',subscription().subscriptionId,'/resourceGroups/',variables('resourceGroupName'),'/providers/Microsoft.KeyVault/vaults/',variables('keyVaultName'))]"
+    //          },
+    //          "secretName": "[variables('kvSecretIRPassword')]"
+    //        }
+    //      }
+    //    }
+    //  }
+    //}
+  ],
+  "outputs":
+    {}
+}

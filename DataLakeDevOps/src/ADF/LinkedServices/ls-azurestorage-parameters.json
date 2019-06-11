@@ -1,0 +1,15 @@
+﻿{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "dataFactoryName": {
+      "value": "#{DATA_FACTORY_NAME}#"
+    },
+    "azureStorageLinkedServiceName": {
+      "value": "#{ABLB_LINKED_SERVICE_NAME}#"
+    },
+    "storageAccountName": {
+      "value": "#{STORAGE_ACCOUNT_NAME}#"
+    }
+  }
+}

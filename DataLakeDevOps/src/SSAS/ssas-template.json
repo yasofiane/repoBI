@@ -1,0 +1,64 @@
+﻿{
+  "contentVersion": "1.0.0.0",
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+  "parameters": {
+    "ssasName": {
+      "type": "string",
+      "metadata": {
+        "description": "Name of the data factory. Must be globally unique."
+      }
+    },
+    "ssasLocation": {
+      "type": "string",
+      "defaultValue": "westeurope",
+      "metadata": {
+        "description": "Location of the data factory. Currently, only West Europe is supported in Europe."
+      }
+    },
+    "ssasSKU": {
+      "type": "string",
+      "defaultValue": "D1",
+      "allowedValues": [
+        "D1",
+        "B1",
+        "B2",
+        "S0",
+        "S1",
+        "S2",
+        "S4",
+        "S8",
+        "S9"
+      ]
+    },
+    "admin": {
+      "type": "string"
+    },
+    "backupBlobContainerUri": {
+      "type": "string"
+    },
+    "managedMode": {
+      "type": "int",
+      "defaultValue": 1
+    }
+  },
+  "resources": [
+    {
+      "name": "[parameters('ssasName')]",
+      "apiVersion": "2017-08-01",
+      "location": "[parameters('ssasLocation')]",
+      "type": "Microsoft.AnalysisServices/servers",
+      "sku": {
+        "name": "[parameters('ssasSKU')]"
+      },
+      "properties": {
+        "asAdministrators": {
+          "members": [
+            "[parameters('admin')]"
+          ]
+        },
+        "backupBlobContainerUri": "[parameters('backupBlobContainerUri')]",
+        "managedMode": "[parameters('managedMode')]"
+      }
+    }
+  ]
+}

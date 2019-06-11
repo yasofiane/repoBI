@@ -1,0 +1,66 @@
+﻿{
+  "contentVersion": "1.0.0.0",
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+  "parameters": {
+    "dataFactoryName": {
+      "type": "string",
+      "metadata": {
+        "description": "Name of the data factory."
+      }
+    },
+    "adlaLinkedServiceName": {
+      "type": "string",
+      "metadata": {
+        "description": "Name of the Azure Data Lake Analytics linked service."
+      }
+    },
+    "adlaName": {
+      "type": "string",
+      "metadata": {
+        "description": "Name of the Azure Data Lake Analytics."
+      }
+    },
+    "adfServicePrincipalID": {
+      "type": "string",
+      "metadata": {
+        "description": "ID of the Service Principal"
+      }
+    },
+    "servicePrincipalKey": {
+      "type": "securestring",
+      "metadata": {
+        "description": "Key of the Service Principal"
+      }
+    }
+  },
+  "resources": [
+    {
+      "name": "[parameters('dataFactoryName')]",
+      "apiVersion": "2017-09-01-preview",
+      "type": "Microsoft.DataFactory/factories",
+      "location": "[resourceGroup().location]",
+      "resources": [
+        {
+          "type": "linkedservices",
+          "name": "[parameters('adlaLinkedServiceName')]",
+          "dependsOn": [
+            "[parameters('dataFactoryName')]"
+          ],
+          "apiVersion": "2017-09-01-preview",
+          "properties": {
+            "type": "AzureDataLakeAnalytics",
+            "description": "Azure Data Lake Analytics linked service",
+            "typeProperties": {
+              "accountName": "[parameters('adlaName')]",
+              "resourceGroupName": "[resourceGroup().name]",
+              "servicePrincipalId": "[parameters('adfServicePrincipalID')]",
+              "servicePrincipalKey": "[parameters('servicePrincipalKey')]",
+              "subscriptionId": "[subscription().subscriptionId]",
+              "tenant": "[subscription().tenantId]"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+﻿{
+  "contentVersion": "1.0.0.0",
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+  "parameters": {
+    "appName": {
+      "type": "string"
+    },
+    "environment": {
+      "type": "string",
+      "allowedValues": [
+        "dev",
+        "dem",
+        "int",
+        "uat",
+        "stg",
+        "prd"
+      ],
+      "metadata": {
+        "description": "The target environment formatted as ENV : dev = dev, dem = demo, int = integration, uat = uat/testing, stg = pre-production or staging, prd = production"
+      }
+    },
+    "location": {
+      "type": "string",
+      "allowedValues": [
+        "us2",
+        "us6"
+      ]
+    },
+    "resourceNumber": {
+      "type": "string"
+    }
+  },
+  "variables": {
+    "keyVaultName": "[concat(parameters('location'),'-',parameters('appName'),'-kv-',parameters('environment'), parameters('resourceNumber'))]"
+  },
+  "resources": [
+    {
+      "type": "Microsoft.KeyVault/vaults",
+      "name": "[variables('keyVaultName')]",
+      "apiVersion": "2015-06-01",
+      "location": "[resourceGroup().location]",
+      "tags": {},
+      "properties": {
+        "enabledForTemplateDeployment": true,
+        "sku": {
+          "family": "A",
+          "name": "Standard"
+        },
+        "tenantId": "[subscription().tenantId]",
+        "accessPolicies": [
+        ]
+      },
+      "dependsOn": []
+    }
+  ]
+}

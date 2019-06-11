@@ -1,0 +1,41 @@
+﻿{
+  "contentVersion": "1.0.0.0",
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+  "parameters": {
+    "dataFactoryName": {
+      "type": "string",
+      "metadata": {
+        "description": "Name of the data factory."
+      }
+    },
+    "integrationRuntimeName": {
+      "type": "string",
+      "metadata": {
+        "description": "Name of the integration runtime."
+      }
+    }
+  },
+  "resources": [
+    {
+      "name": "[parameters('dataFactoryName')]",
+      "apiVersion": "2017-09-01-preview",
+      "type": "Microsoft.DataFactory/factories",
+      "location": "[resourceGroup().location]",
+      "resources": [
+        {
+          "type": "integrationRuntimes",
+          "dependsOn": [
+            "[parameters('dataFactoryName')]"
+          ],
+          "apiVersion": "2017-09-01-preview",
+          "name": "[parameters('integrationRuntimeName')]",
+          "properties": {
+            "type": "SelfHosted",
+            "additionalProperties": {},
+            "description": "Integration Runtime for importing data from the on-prem."
+          }
+        }
+      ]
+    }
+  ]
+}

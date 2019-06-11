@@ -1,0 +1,37 @@
+﻿{
+  "tags": [
+    {
+      "Microsoft.DataFactory/factories": [
+        {
+          "role": "Compute"
+        }
+      ],
+      "Microsoft.DataFactory/datafactories": [
+        {
+          "role": "Compute"
+        }
+      ],
+      "Microsoft.DataLakeAnalytics/accounts": [
+        {
+          "role": "Compute"
+        }
+      ],
+      "Microsoft.DataLakeStore/accounts": [
+        {
+          "role": "Storage"
+        }
+      ],
+      "Microsoft.KeyVault/vaults": [
+        {
+          "role": "Security"
+        }
+      ],
+      "Microsoft.Storage/storageAccounts": [
+        {
+          "role": "Storage"
+        }
+      ]
+    }
+  ]
+}
+

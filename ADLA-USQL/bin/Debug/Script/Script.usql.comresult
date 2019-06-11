@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<CommonCompileResult xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <InputStreams />
+  <OutputStreams>
+    <OutputStreamInfo>
+      <Path>C:\Users\yasofian\AppData\Local\USQLDataRoot\datasofADLA.csv</Path>
+      <SchemaString>customer:string,amount:double</SchemaString>
+      <IsBinary>false</IsBinary>
+      <IsSStream>false</IsSStream>
+    </OutputStreamInfo>
+  </OutputStreams>
+  <ScriptPath>C:\Users\yasofian\Source\Repos\DataLakeDevOps\ADLA-USQL\bin\Debug\Script\Script.usql</ScriptPath>
+  <ScopeVertexDefinitionPath>C:\Users\yasofian\Source\Repos\DataLakeDevOps\ADLA-USQL\bin\Debug\Script\ScopeVertexDef.xml</ScopeVertexDefinitionPath>
+  <ScopeVertexDefinition>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ScopeVertices helperAssembly="__ScopeCodeGen__.dll" signatureVersion="1"&gt;
+  &lt;ScopeVertex id="SV1_Extract" cppReady="true" nativeOnly="true"&gt;
+    &lt;operator id="RowGenerator_0" uid="1" assemblyName="__ScopeCodeGen__.dll" className="RowGenerator"&gt;
+      &lt;input id="RowGenerator_0" uid="1" schema="" inputIndex="0" numberOfInputs="ALL" /&gt;
+      &lt;output id="RowGenerator_0_Data0" uid="2" schema="" /&gt;
+    &lt;/operator&gt;
+    &lt;operator id="Process_1" uid="3" assemblyName="__ScopeCodeGen__.dll" className="SequenceProject"&gt;
+      &lt;input id="RowGenerator_0_Data0" uid="2" schema="" /&gt;
+      &lt;output id="Process_1_Data0" uid="4" schema="RowNumber0__:long?" /&gt;
+    &lt;/operator&gt;
+    &lt;operator id="Process_2" uid="5" assemblyName="__ScopeCodeGen__.dll" className="SqlFilterTransformer_2"&gt;
+      &lt;input id="Process_1_Data0" uid="4" schema="RowNumber0__:long?" /&gt;
+      &lt;output id="Process_2_Data0" uid="6" schema="customer:string,amount:double" /&gt;
+    &lt;/operator&gt;
+    &lt;operator id="Output_3" uid="7" assemblyName="Microsoft.Analytics.Interfaces.dll" className="Microsoft.Analytics.Interfaces.IOutputter"&gt;
+      &lt;input id="Process_2_Data0" uid="6" schema="customer:string,amount:double" /&gt;
+      &lt;output id="SV1_Extract_out0" uid="7" schema="customer:string,amount:double" outputIndex="0" numberOfOutputs="1" finalOutput="true" /&gt;
+    &lt;/operator&gt;
+  &lt;/ScopeVertex&gt;
+&lt;/ScopeVertices&gt;</ScopeVertexDefinition>
+  <AlgebraPath>C:\Users\yasofian\Source\Repos\DataLakeDevOps\ADLA-USQL\bin\Debug\Script\__script__.abr</AlgebraPath>
+  <Algebra>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ScriptAndGraph GraphType="VertexCommands"&gt;
+  &lt;Vertices count="1"&gt;
+    &lt;Vertex index="1" command="-scopeVertex SV1_Extract  -i C:\Users\yasofian\Source\Repos\DataLakeDevOps\ADLA-USQL\bin\Debug\Script\_TMP\scopetmpfile._RowGenerator_0 -ichannel RowGenerator_0  -o C:\Users\yasofian\Source\Repos\DataLakeDevOps\ADLA-USQL\bin\Debug\Script\_TMP\scopetmpfile._SV1_Extract_out0(WITH_HEADER)" /&gt;
+    &lt;Vertex command="-concatenate -i C:\Users\yasofian\Source\Repos\DataLakeDevOps\ADLA-USQL\bin\Debug\Script\_TMP\scopetmpfile._SV1_Extract_out0 -o C:\Users\yasofian\AppData\Local\USQLDataRoot\datasofADLA.csv" /&gt;
+  &lt;/Vertices&gt;
+  &lt;Outputs&gt;
+    &lt;Output path="C:\Users\yasofian\AppData\Local\USQLDataRoot\datasofADLA.csv" isBinary="False" schema="customer:string,amount:double" /&gt;
+  &lt;/Outputs&gt;
+  &lt;graph serveForThirdParty="True" JsonErrors="True" JobType="BatchSqlIp" MaxPercentInputUnavailability="0" vertexExecutable="scopehost.exe" BroadcastCopyThroughCommandLine="ScopeEngine.dll -scopeVertex SV_CopyThrough"&gt;
+    &lt;process id="SV1_Extract" command="ScopeEngine.dll -scopeVertex SV1_Extract" nativeOnly="true" managedMemorySize="0" nativeIOMemorySize="25165825" nativeExecutionMemorySize="54525952" trustedVertex="True"&gt;
+      &lt;input id="RowGenerator_0[ALL]"&gt;
+        &lt;cosmosStream cosmosPath="null://" /&gt;
+      &lt;/input&gt;
+      &lt;output id="SV1_Extract_out0" cosmosStream="C:\Users\yasofian\AppData\Local\USQLDataRoot\datasofADLA.csv" /&gt;
+    &lt;/process&gt;
+  &lt;/graph&gt;
+  &lt;Scopescript&gt;// Auto-generated header code
+
+// Auto-generated header code ended
+// User script
+
+@a  = 
+    SELECT * FROM 
+        (VALUES
+            ("Contoso", 1500.0),
+            ("Woodgrove", 2700.0)
+        ) AS D( customer, amount );
+OUTPUT @a
+    TO "/datasofADLA.csv"
+    USING Outputters.Csv();
+// User script ended
+// Auto-generated footer code
+
+// Auto-generated footer code ended
+
+&lt;/Scopescript&gt;
+  &lt;Optimization succeeded="true" time="00:00:00.7655195" latency="-1" totalCost="-1" /&gt;
+  &lt;ScopeVertexAnnotations&gt;
+    &lt;ScopeVertex name="SV1_Extract"&gt;
+      &lt;Operation annotation="OUTPUT USING IOutputter" /&gt;
+    &lt;/ScopeVertex&gt;
+  &lt;/ScopeVertexAnnotations&gt;
+&lt;/ScriptAndGraph&gt;</Algebra>
+  <ErrorList />
+  <WarningList />
+  <HelperCodePath>C:\Users\yasofian\Source\Repos\DataLakeDevOps\ADLA-USQL\bin\Debug\Script\__ScopeCodeGenEngine__.dll.cpp</HelperCodePath>
+  <ResourceList />
+  <ReferenceList />
+  <ClusterResourceList />
+  <LocalRunSteps>
+    <string>-scopeVertex SV1_Extract  -i C:\Users\yasofian\Source\Repos\DataLakeDevOps\ADLA-USQL\bin\Debug\Script\_TMP\scopetmpfile._RowGenerator_0 -ichannel RowGenerator_0  -o C:\Users\yasofian\Source\Repos\DataLakeDevOps\ADLA-USQL\bin\Debug\Script\_TMP\scopetmpfile._SV1_Extract_out0(WITH_HEADER) -managedMemorySize 0</string>
+    <string>-concatenate -i C:\Users\yasofian\Source\Repos\DataLakeDevOps\ADLA-USQL\bin\Debug\Script\_TMP\scopetmpfile._SV1_Extract_out0 -o C:\Users\yasofian\AppData\Local\USQLDataRoot\datasofADLA.csv -s "customer:string,amount:double"</string>
+  </LocalRunSteps>
+  <LocalRunCachePath>C:\Users\yasofian\Source\Repos\DataLakeDevOps\ADLA-USQL\bin\Debug\Script</LocalRunCachePath>
+  <LocalRunTempPath>C:\Users\yasofian\Source\Repos\DataLakeDevOps\ADLA-USQL\bin\Debug\Script\_TMP</LocalRunTempPath>
+  <LocalRunRuntimePath>C:\Users\yasofian\Source\Repos\DataLakeDevOps\ADLA-USQL\bin\Debug\Script</LocalRunRuntimePath>
+  <ScopeWorkingDir>C:\Users\yasofian\Source\Repos\DataLakeDevOps\ADLA-USQL\bin\Debug\Script</ScopeWorkingDir>
+</CommonCompileResult>
